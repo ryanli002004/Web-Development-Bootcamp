@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+html{
+    background-color: black;
+}
+img{
+    border: 5px solid white;
+    width: 100%;
+}
+#myid{
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 25%;
+}
