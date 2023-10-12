@@ -17,31 +17,31 @@ footer {
 }
 
 .w {
-
+  background-image: image-set("images/crash.png");
 }
 
 .a {
-
+  background-image: image-set("images/kick.png");
 }
 
 .s {
-
+  background-image: image-set("images/snare.png");
 }
 
 .d {
-
+  background-image: image-set("images/tom1.png");
 }
 
 .j {
-
+  background-image: image-set("images/tom2.png");
 }
 
 .k {
-
+  background-image: image-set("images/tom3.png");
 }
 
 .l {
-
+  background-image: image-set("images/tom4.png");
 }
 
 .set {
