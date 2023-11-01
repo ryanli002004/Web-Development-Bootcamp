@@ -54,11 +54,13 @@
         <%}%>
 
 
-          <%if (locals.error) {%>
+
             <div id="tag-error" class="tag-error">
+              <%if (locals.error) {%>
               <%=error%>
+              <%}%>
             </div>
-            <%}%>
+
     </section>
   </div>
 

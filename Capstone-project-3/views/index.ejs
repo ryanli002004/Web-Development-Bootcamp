@@ -6,8 +6,17 @@
     <body>
         <div class="list">
             <h1>To Do List</h1>
-
-            <input type="text" placeholder="add to do item" id="addToDo">
+            <% if (locals.myList){ %>
+                <% for (items of myList) { %>
+                    <form action="/remove" method="POST">
+                    <li><%= items %></li><button name="removeToDo" value = <%=items%> type="submit">remove</button>
+                    </form>
+                <% }%>
+            <% }%>
+            <form action="/add" method="POST"> 
+            <input type="text" placeholder="add to do item" name="addToDo">
+            <button  type="submit">add</button>
+            </form>
         </div>
     </body>
 </html>

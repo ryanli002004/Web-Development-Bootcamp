@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>cat image generator</title>
+        <link rel="stylesheet" href="/styles/main.css">
+    </head>
+    <body>
+        <button type="submit" >Click me to see a random cat</button>
+        <% if (locals.data){ %>
+            <img src="<%=data.url%>">
+        <% } %>
+    </body>
+</html>
